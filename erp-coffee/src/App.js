@@ -17,7 +17,7 @@ function App() {
         <SideBar className="SideBar" />
         <div className="Content">
           <Routes>
-            <Route path="/UserModify" element={<UserModify />}></Route>
+            <Route path="/userModify" element={<UserModify />}></Route>
             <Route path="/" element={<SignIn />}></Route>
             <Route path="/signUp" element={<SignUp />}></Route>
             <Route path="/home" element={<Home />}></Route>
