@@ -1,8 +1,7 @@
 import React, { useState } from 'react'
-import '../scss/UserModify.scss';
+import '../../scss/user/UserModify.scss'
 import TextField from '@mui/material/TextField';
 import MenuItem from '@mui/material/MenuItem';
-import { DemoContainer } from '@mui/x-date-pickers/internals/demo';
 import { AdapterDayjs } from '@mui/x-date-pickers/AdapterDayjs';
 import { LocalizationProvider } from '@mui/x-date-pickers/LocalizationProvider';
 import { DatePicker } from '@mui/x-date-pickers/DatePicker';

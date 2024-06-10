@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import '../scss/SignUp.scss';
+import '../../scss/user/SignUp.scss';
 import TextField from '@mui/material/TextField';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
