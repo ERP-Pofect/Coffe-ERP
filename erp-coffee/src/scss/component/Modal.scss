@@ -1,0 +1,169 @@
+@import '../utill';
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; // 필요에 따라 조정
+}
+
+.modal-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  width: 100%; // 필요에 따라 조정
+  max-width: 80%; // 필요에 따라 조정
+  height: 600px;
+  position: relative;
+  ;
+
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 25px;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  .head {
+    width: 100%;
+    height: 10%;
+    border-bottom: 1px solid black;
+
+    .title {
+      margin-left: 2%;
+    }
+
+  }
+
+  .body {
+    width: 100%;
+    height: 75%;
+
+    .bodyBox1 {
+      width: 100%;
+      height: 25%;
+      display: flex;
+
+      .detailBox1 {
+        width: 50%;
+        height: 100%;
+
+        .inputBox {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+
+      .detailBox2 {
+        width: 50%;
+
+        .inputBox2 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+    }
+
+    .bodyBox2 {
+      width: 100%;
+      height: 25%;
+      display: flex;
+
+      .detailBox3 {
+        width: 50%;
+        height: 100%;
+
+        .inputBox3 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+
+      .detailBox4 {
+        width: 50%;
+
+        .inputBox4 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+    }
+
+    .bodyBox3 {
+      width: 100%;
+      height: 25%;
+      display: flex;
+
+      .detailBox5 {
+        width: 50%;
+        height: 100%;
+
+        .inputBox5 {
+          width: 50%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+
+        .inputBox6 {
+          width: 15%;
+          margin-top: 4.5%;
+          margin-left: 5%;
+        }
+      }
+
+      .detailBox7 {
+        width: 50%;
+
+        .inputBox7 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+    }
+
+    .bodyBox4 {
+      width: 100%;
+      height: 25%;
+      display: flex;
+
+      .detailBox7 {
+        width: 50%;
+        height: 100%;
+
+        .inputBox7 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+
+      .detailBox8 {
+        width: 50%;
+
+        .inputBox8 {
+          width: 70%;
+          margin-top: 4.5%;
+          margin-left: 10%;
+        }
+      }
+    }
+  }
+
+  .productsubmit {
+    position: absolute;
+    right: 0;
+    margin-right: 11%;
+  }
+}
